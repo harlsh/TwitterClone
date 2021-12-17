@@ -1,0 +1,5 @@
+FSharp.Core,5.0,Transitive,testws,false,true,false,true
+HtmlAgilityPack,1.11.28,Transitive,testws,false,true,false,true
+WebSharper,4.7.0.423,Transitive,testws,false,true,false,true
+WebSharper.FSharp,4.7.0.423,Direct,testws,false,true,false,true
+WebSharper.UI,4.7.0.231,Direct,testws,false,true,false,true

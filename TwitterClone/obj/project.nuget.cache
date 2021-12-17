@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "YiLyVQDAbyhidEWYzObA4SqjEEw2V7xaRVwh47Y+RTgUGlYqTqqa+qJn6O6FAGkHYIKQnc3MH8rTrJ+VWM69tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\haris\\Desktop\\Study\\DOSP\\TwitterClone-Websharper-WebSockets-main\\TwitterClone\\TwitterClone.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haris\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\htmlagilitypack\\1.11.28\\htmlagilitypack.1.11.28.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.0.0\\microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.0.0\\microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.0.0\\microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.0.0\\microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.0.0\\microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\system.text.encodings.web\\4.4.0\\system.text.encodings.web.4.4.0.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\websharper\\4.7.0.423\\websharper.4.7.0.423.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\websharper.aspnetcore\\4.7.0.157\\websharper.aspnetcore.4.7.0.157.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\websharper.aspnetcore.websocket\\4.7.0.157\\websharper.aspnetcore.websocket.4.7.0.157.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\websharper.fsharp\\4.7.0.423\\websharper.fsharp.4.7.0.423.nupkg.sha512",
+    "C:\\Users\\haris\\.nuget\\packages\\websharper.ui\\4.7.0.231\\websharper.ui.4.7.0.231.nupkg.sha512"
+  ],
+  "logs": []
+}

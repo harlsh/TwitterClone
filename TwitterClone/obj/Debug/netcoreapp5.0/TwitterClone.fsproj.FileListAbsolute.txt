@@ -1,0 +1,4 @@
+C:\Users\haris\Desktop\Study\DOSP\TwitterClone-Websharper-WebSockets-main\TwitterClone\obj\Debug\netcoreapp5.0\TwitterClone.fsproj.AssemblyReference.cache
+C:\Users\haris\Desktop\Study\DOSP\TwitterClone-Websharper-WebSockets-main\TwitterClone\obj\Debug\netcoreapp5.0\TwitterClone.AssemblyInfoInputs.cache
+C:\Users\haris\Desktop\Study\DOSP\TwitterClone-Websharper-WebSockets-main\TwitterClone\obj\Debug\netcoreapp5.0\TwitterClone.AssemblyInfo.fs
+C:\Users\haris\Desktop\Study\DOSP\TwitterClone-Websharper-WebSockets-main\TwitterClone\obj\Debug\netcoreapp5.0\TwitterClone.MvcApplicationPartsAssemblyInfo.cache

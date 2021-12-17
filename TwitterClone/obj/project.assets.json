@@ -1,0 +1,1070 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FSharp.Core/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.28": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "System.Text.Encodings.Web": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "WebSharper/4.7.0.423": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.2.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebSharper.Collections.dll": {},
+          "lib/netstandard2.0/WebSharper.Control.dll": {},
+          "lib/netstandard2.0/WebSharper.Core.JavaScript.dll": {},
+          "lib/netstandard2.0/WebSharper.Core.dll": {},
+          "lib/netstandard2.0/WebSharper.InterfaceGenerator.dll": {},
+          "lib/netstandard2.0/WebSharper.JQuery.dll": {},
+          "lib/netstandard2.0/WebSharper.JavaScript.dll": {},
+          "lib/netstandard2.0/WebSharper.Main.dll": {},
+          "lib/netstandard2.0/WebSharper.Sitelets.dll": {},
+          "lib/netstandard2.0/WebSharper.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebSharper.Collections.dll": {},
+          "lib/netstandard2.0/WebSharper.Control.dll": {},
+          "lib/netstandard2.0/WebSharper.Core.JavaScript.dll": {},
+          "lib/netstandard2.0/WebSharper.Core.dll": {},
+          "lib/netstandard2.0/WebSharper.InterfaceGenerator.dll": {},
+          "lib/netstandard2.0/WebSharper.JQuery.dll": {},
+          "lib/netstandard2.0/WebSharper.JavaScript.dll": {},
+          "lib/netstandard2.0/WebSharper.Main.dll": {},
+          "lib/netstandard2.0/WebSharper.Sitelets.dll": {},
+          "lib/netstandard2.0/WebSharper.Web.dll": {}
+        }
+      },
+      "WebSharper.AspNetCore/4.7.0.157": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "WebSharper": "[4.7.0, 4.8.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebSharper.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebSharper.AspNetCore.dll": {}
+        }
+      },
+      "WebSharper.AspNetCore.WebSocket/4.7.0.157": {
+        "type": "package",
+        "dependencies": {
+          "WebSharper.AspNetCore": "[4.7.0.157]"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebSharper.AspNetCore.WebSocket.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebSharper.AspNetCore.WebSocket.dll": {}
+        }
+      },
+      "WebSharper.FSharp/4.7.0.423": {
+        "type": "package",
+        "dependencies": {
+          "WebSharper": "[4.7.0.423]"
+        },
+        "build": {
+          "build/WebSharper.FSharp.targets": {}
+        }
+      },
+      "WebSharper.UI/4.7.0.231": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.7.1",
+          "WebSharper": "[4.7.0, 4.8.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebSharper.UI.Templating.Common.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.Templating.Runtime.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.Templating.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebSharper.UI.Templating.Common.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.Templating.Runtime.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.Templating.dll": {},
+          "lib/netstandard2.0/WebSharper.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/5.0.0": {
+      "sha512": "iHoYXA0VaSQUONGENB1aVafjDDZDZpwu39MtaRCTrmwFW/cTcK0b2yKNVYneFHJMc3ChtsSoM9lNtJ1dYXkHfA==",
+      "type": "package",
+      "path": "fsharp.core/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.5.0.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "HtmlAgilityPack/1.11.28": {
+      "sha512": "aclp8f2p+xeNNR02qfMu2r4K49sNWE13VDHiLpv9SoKBDIwwy62HQIMnT+oeuyFquQRzwSGD3vUWUmtOT+eNzQ==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.28.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml.zip",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml.zip",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml.zip",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml.zip",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml.zip",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
+      "sha512": "eDrNQlYPL5lw8DXMlEvo61VhkZ9DFq9/8Fds8+aaMa4nMtIJvwEwbFyYfJ+Zblh/8NNBkDQHkDD1p4i3g0HFWg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.xml.zip",
+        "microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.0.0": {
+      "sha512": "IR2zlm3d/CmYbkw+cMM7M6mUAi+xsFUPfWqGYqzZVC5o6jX3xD2Z4Uf44UBaWKMBf5Z7q9dodIdXxwFPF2Hxhg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml.zip",
+        "microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.0.0": {
+      "sha512": "v2H65ix/O11HKoxhKQpljtozsD5/1tqeXr3TYnrLgfAPIsp6kTFxIcTSENoxtew7h9X14ENqUf2lBCkyCNRUuQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml.zip",
+        "microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+      "sha512": "pblZLY7IfNqhQ5wwGQ0vNq2mG6W5YgZI1fk7suEuwZsGxGEADNBAyNlTALM9L8nMXdvbp6aHP/t4wHrFpcL3Sw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml.zip",
+        "microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.0.0": {
+      "sha512": "yk62muzFTZTKCQuo3nmVPkPvGBlM2qbdSxbX62TufuONuKQrTGQ/SwhwBbYutk5/YY7u4HETu0n9BKOn7mMgmA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml.zip",
+        "microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml.zip",
+        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml.zip",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "sha512": "Z0AK+hmLO33WAXQ5P1uPzhH7z5yjDHX/XnUefXxE//SyvCb9x4cVjND24dT5566t/yzGp8/WLD7EG9KQKZZklQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml.zip",
+        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
+      "sha512": "qPG6Ip/AdHxMJ7j3z8FkkpCbV8yjtiFpf/aOpN3TwfJWbtYpN+BKV8Q+pqPMgk7XZivcju9yARaEVCS++hWopA==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml.zip",
+        "microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.0": {
+      "sha512": "6ZCllUYGFukkymSTx3Yr0G/ajRxoNJp7/FqSxSB4fGISST54ifBhgu4Nc0ItGi3i6DqwuNd8SUyObmiC++AO2Q==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml.zip",
+        "microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/2.0.0": {
+      "sha512": "sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
+      "type": "package",
+      "path": "microsoft.extensions.options/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml.zip",
+        "microsoft.extensions.options.2.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.0.0": {
+      "sha512": "ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml.zip",
+        "microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml.zip",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml.zip",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml.zip",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml.zip",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/4.4.0": {
+      "sha512": "l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml.zip",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml.zip",
+        "system.text.encodings.web.4.4.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WebSharper/4.7.0.423": {
+      "sha512": "wF4+iMg42En6+KBJ90aIF0rlt3kibxjISADcYwUDKYPfQo96YANUTfd53PeAi0FBcoNbeO/tYYCl3i6dm52y4Q==",
+      "type": "package",
+      "path": "websharper/4.7.0.423",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "docs/CSharpIntro.md",
+        "docs/DOM.md",
+        "docs/ECMA-262.md",
+        "docs/IIS.md",
+        "docs/Libraries.md",
+        "docs/MSBuild.md",
+        "docs/Macros.md",
+        "docs/WebApi.md",
+        "docs/WebSharper.md",
+        "docs/WebSharper4Beta.md",
+        "docs/dep-form-ex.png",
+        "docs/dep-form.png",
+        "docs/doc.fsx",
+        "docs/enhance-form.png",
+        "docs/jQuery.md",
+        "docs/label-form.png",
+        "docs/person-form-ex.png",
+        "docs/qunit.png",
+        "docs/static-comp-form.png",
+        "docs/validation-form.png",
+        "lib/net461/WebSharper.Collections.dll",
+        "lib/net461/WebSharper.Collections.xml.zip",
+        "lib/net461/WebSharper.Control.dll",
+        "lib/net461/WebSharper.Control.xml.zip",
+        "lib/net461/WebSharper.Core.JavaScript.dll",
+        "lib/net461/WebSharper.Core.JavaScript.xml.zip",
+        "lib/net461/WebSharper.Core.dll",
+        "lib/net461/WebSharper.Core.xml.zip",
+        "lib/net461/WebSharper.InterfaceGenerator.dll",
+        "lib/net461/WebSharper.InterfaceGenerator.xml.zip",
+        "lib/net461/WebSharper.JQuery.dll",
+        "lib/net461/WebSharper.JQuery.xml.zip",
+        "lib/net461/WebSharper.JavaScript.dll",
+        "lib/net461/WebSharper.JavaScript.xml.zip",
+        "lib/net461/WebSharper.Main.dll",
+        "lib/net461/WebSharper.Main.xml.zip",
+        "lib/net461/WebSharper.Sitelets.dll",
+        "lib/net461/WebSharper.Sitelets.xml.zip",
+        "lib/net461/WebSharper.Web.dll",
+        "lib/net461/WebSharper.Web.xml.zip",
+        "lib/netstandard2.0/WebSharper.Collections.dll",
+        "lib/netstandard2.0/WebSharper.Collections.xml.zip",
+        "lib/netstandard2.0/WebSharper.Control.dll",
+        "lib/netstandard2.0/WebSharper.Control.xml.zip",
+        "lib/netstandard2.0/WebSharper.Core.JavaScript.dll",
+        "lib/netstandard2.0/WebSharper.Core.JavaScript.xml.zip",
+        "lib/netstandard2.0/WebSharper.Core.dll",
+        "lib/netstandard2.0/WebSharper.Core.xml.zip",
+        "lib/netstandard2.0/WebSharper.InterfaceGenerator.dll",
+        "lib/netstandard2.0/WebSharper.InterfaceGenerator.xml.zip",
+        "lib/netstandard2.0/WebSharper.JQuery.dll",
+        "lib/netstandard2.0/WebSharper.JQuery.xml.zip",
+        "lib/netstandard2.0/WebSharper.JavaScript.dll",
+        "lib/netstandard2.0/WebSharper.JavaScript.xml.zip",
+        "lib/netstandard2.0/WebSharper.Main.dll",
+        "lib/netstandard2.0/WebSharper.Main.xml.zip",
+        "lib/netstandard2.0/WebSharper.Sitelets.dll",
+        "lib/netstandard2.0/WebSharper.Sitelets.xml.zip",
+        "lib/netstandard2.0/WebSharper.Web.dll",
+        "lib/netstandard2.0/WebSharper.Web.xml.zip",
+        "tools/tags.csv",
+        "websharper.4.7.0.423.nupkg.sha512",
+        "websharper.nuspec"
+      ]
+    },
+    "WebSharper.AspNetCore/4.7.0.157": {
+      "sha512": "BvSoQEs58FFDfOPw7O1s3p0+VO3c3EGarUjmODlBQVEKeIg2IKHoIggINPMmuJdTleBguTi15+3AmFpHRD+lOg==",
+      "type": "package",
+      "path": "websharper.aspnetcore/4.7.0.157",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/WebSharper.AspNetCore.dll",
+        "lib/netstandard2.0/WebSharper.AspNetCore.xml",
+        "websharper.aspnetcore.4.7.0.157.nupkg.sha512",
+        "websharper.aspnetcore.nuspec"
+      ]
+    },
+    "WebSharper.AspNetCore.WebSocket/4.7.0.157": {
+      "sha512": "ucB7TwK8yfBPENYQrXQbO6DW2kzxWfS0tkLzdUwCXuMnzZlJrwrusAcQxaYCoRH7lz3YEMiVeZK5SOCRQeU09w==",
+      "type": "package",
+      "path": "websharper.aspnetcore.websocket/4.7.0.157",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/WebSharper.AspNetCore.WebSocket.dll",
+        "lib/netstandard2.0/WebSharper.AspNetCore.WebSocket.xml",
+        "websharper.aspnetcore.websocket.4.7.0.157.nupkg.sha512",
+        "websharper.aspnetcore.websocket.nuspec"
+      ]
+    },
+    "WebSharper.FSharp/4.7.0.423": {
+      "sha512": "vNj3/11TS9zdr7rTA8oFWhZuUGYLwnmnKiOU1cuU7KLQtFC8w9pI7I38MJqAkYtV/LOxDYZIXC75lw2vFjRZOw==",
+      "type": "package",
+      "path": "websharper.fsharp/4.7.0.423",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "build/WebSharper.FSharp.targets",
+        "tools/net461/FSharp.Compiler.Service.dll",
+        "tools/net461/FSharp.Core.dll",
+        "tools/net461/Microsoft.Build.Framework.dll",
+        "tools/net461/Microsoft.Build.Tasks.Core.dll",
+        "tools/net461/Microsoft.Build.Utilities.Core.dll",
+        "tools/net461/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/net461/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net461/Microsoft.Win32.Primitives.dll",
+        "tools/net461/Microsoft.Win32.Registry.dll",
+        "tools/net461/Mono.Cecil.Mdb.dll",
+        "tools/net461/Mono.Cecil.Pdb.dll",
+        "tools/net461/Mono.Cecil.Rocks.dll",
+        "tools/net461/Mono.Cecil.dll",
+        "tools/net461/Newtonsoft.Json.dll",
+        "tools/net461/System.AppContext.dll",
+        "tools/net461/System.Buffers.dll",
+        "tools/net461/System.CodeDom.dll",
+        "tools/net461/System.Collections.Concurrent.dll",
+        "tools/net461/System.Collections.Immutable.dll",
+        "tools/net461/System.Collections.NonGeneric.dll",
+        "tools/net461/System.Collections.Specialized.dll",
+        "tools/net461/System.Collections.dll",
+        "tools/net461/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461/System.ComponentModel.Primitives.dll",
+        "tools/net461/System.ComponentModel.TypeConverter.dll",
+        "tools/net461/System.ComponentModel.dll",
+        "tools/net461/System.Configuration.ConfigurationManager.dll",
+        "tools/net461/System.Console.dll",
+        "tools/net461/System.Data.Common.dll",
+        "tools/net461/System.Diagnostics.Contracts.dll",
+        "tools/net461/System.Diagnostics.Debug.dll",
+        "tools/net461/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461/System.Diagnostics.Process.dll",
+        "tools/net461/System.Diagnostics.StackTrace.dll",
+        "tools/net461/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461/System.Diagnostics.Tools.dll",
+        "tools/net461/System.Diagnostics.TraceSource.dll",
+        "tools/net461/System.Diagnostics.Tracing.dll",
+        "tools/net461/System.Drawing.Primitives.dll",
+        "tools/net461/System.Dynamic.Runtime.dll",
+        "tools/net461/System.Globalization.Calendars.dll",
+        "tools/net461/System.Globalization.Extensions.dll",
+        "tools/net461/System.Globalization.dll",
+        "tools/net461/System.IO.Compression.ZipFile.dll",
+        "tools/net461/System.IO.Compression.dll",
+        "tools/net461/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461/System.IO.FileSystem.Primitives.dll",
+        "tools/net461/System.IO.FileSystem.Watcher.dll",
+        "tools/net461/System.IO.FileSystem.dll",
+        "tools/net461/System.IO.IsolatedStorage.dll",
+        "tools/net461/System.IO.MemoryMappedFiles.dll",
+        "tools/net461/System.IO.Pipes.dll",
+        "tools/net461/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461/System.IO.dll",
+        "tools/net461/System.Linq.Expressions.dll",
+        "tools/net461/System.Linq.Parallel.dll",
+        "tools/net461/System.Linq.Queryable.dll",
+        "tools/net461/System.Linq.dll",
+        "tools/net461/System.Memory.dll",
+        "tools/net461/System.Net.Http.dll",
+        "tools/net461/System.Net.NameResolution.dll",
+        "tools/net461/System.Net.NetworkInformation.dll",
+        "tools/net461/System.Net.Ping.dll",
+        "tools/net461/System.Net.Primitives.dll",
+        "tools/net461/System.Net.Requests.dll",
+        "tools/net461/System.Net.Security.dll",
+        "tools/net461/System.Net.Sockets.dll",
+        "tools/net461/System.Net.WebHeaderCollection.dll",
+        "tools/net461/System.Net.WebSockets.Client.dll",
+        "tools/net461/System.Net.WebSockets.dll",
+        "tools/net461/System.Numerics.Vectors.dll",
+        "tools/net461/System.ObjectModel.dll",
+        "tools/net461/System.Reflection.Extensions.dll",
+        "tools/net461/System.Reflection.Metadata.dll",
+        "tools/net461/System.Reflection.Primitives.dll",
+        "tools/net461/System.Reflection.TypeExtensions.dll",
+        "tools/net461/System.Reflection.dll",
+        "tools/net461/System.Resources.Extensions.dll",
+        "tools/net461/System.Resources.Reader.dll",
+        "tools/net461/System.Resources.ResourceManager.dll",
+        "tools/net461/System.Resources.Writer.dll",
+        "tools/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461/System.Runtime.Extensions.dll",
+        "tools/net461/System.Runtime.Handles.dll",
+        "tools/net461/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461/System.Runtime.InteropServices.dll",
+        "tools/net461/System.Runtime.Numerics.dll",
+        "tools/net461/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461/System.Runtime.Serialization.Json.dll",
+        "tools/net461/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461/System.Runtime.Serialization.Xml.dll",
+        "tools/net461/System.Runtime.dll",
+        "tools/net461/System.Security.AccessControl.dll",
+        "tools/net461/System.Security.Claims.dll",
+        "tools/net461/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461/System.Security.Cryptography.Csp.dll",
+        "tools/net461/System.Security.Cryptography.Encoding.dll",
+        "tools/net461/System.Security.Cryptography.Primitives.dll",
+        "tools/net461/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461/System.Security.Permissions.dll",
+        "tools/net461/System.Security.Principal.Windows.dll",
+        "tools/net461/System.Security.Principal.dll",
+        "tools/net461/System.Security.SecureString.dll",
+        "tools/net461/System.Text.Encoding.CodePages.dll",
+        "tools/net461/System.Text.Encoding.Extensions.dll",
+        "tools/net461/System.Text.Encoding.dll",
+        "tools/net461/System.Text.RegularExpressions.dll",
+        "tools/net461/System.Threading.Overlapped.dll",
+        "tools/net461/System.Threading.Tasks.Dataflow.dll",
+        "tools/net461/System.Threading.Tasks.Parallel.dll",
+        "tools/net461/System.Threading.Tasks.dll",
+        "tools/net461/System.Threading.Thread.dll",
+        "tools/net461/System.Threading.ThreadPool.dll",
+        "tools/net461/System.Threading.Timer.dll",
+        "tools/net461/System.Threading.dll",
+        "tools/net461/System.ValueTuple.dll",
+        "tools/net461/System.Xml.ReaderWriter.dll",
+        "tools/net461/System.Xml.XDocument.dll",
+        "tools/net461/System.Xml.XPath.XDocument.dll",
+        "tools/net461/System.Xml.XPath.dll",
+        "tools/net461/System.Xml.XmlDocument.dll",
+        "tools/net461/System.Xml.XmlSerializer.dll",
+        "tools/net461/WebSharper.Compiler.FSharp.dll",
+        "tools/net461/WebSharper.Compiler.dll",
+        "tools/net461/WebSharper.Core.JavaScript.dll",
+        "tools/net461/WebSharper.Core.dll",
+        "tools/net461/WebSharper.InterfaceGenerator.dll",
+        "tools/net461/WebSharper.Sitelets.Offline.dll",
+        "tools/net461/netstandard.dll",
+        "tools/net461/wsfsc.exe",
+        "tools/net461/wsfsc.exe.config",
+        "tools/netcoreapp3.1/FSharp.Compiler.Service.dll",
+        "tools/netcoreapp3.1/FSharp.Core.dll",
+        "tools/netcoreapp3.1/Microsoft.Build.Framework.dll",
+        "tools/netcoreapp3.1/Microsoft.Build.Tasks.Core.dll",
+        "tools/netcoreapp3.1/Microsoft.Build.Utilities.Core.dll",
+        "tools/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
+        "tools/netcoreapp3.1/Mono.Cecil.Mdb.dll",
+        "tools/netcoreapp3.1/Mono.Cecil.Pdb.dll",
+        "tools/netcoreapp3.1/Mono.Cecil.Rocks.dll",
+        "tools/netcoreapp3.1/Mono.Cecil.dll",
+        "tools/netcoreapp3.1/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.1/System.CodeDom.dll",
+        "tools/netcoreapp3.1/System.Configuration.ConfigurationManager.dll",
+        "tools/netcoreapp3.1/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/System.Resources.Extensions.dll",
+        "tools/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp3.1/System.Security.Permissions.dll",
+        "tools/netcoreapp3.1/System.Windows.Extensions.dll",
+        "tools/netcoreapp3.1/WebSharper.Compiler.FSharp.dll",
+        "tools/netcoreapp3.1/WebSharper.Compiler.dll",
+        "tools/netcoreapp3.1/WebSharper.Core.JavaScript.dll",
+        "tools/netcoreapp3.1/WebSharper.Core.dll",
+        "tools/netcoreapp3.1/WebSharper.InterfaceGenerator.dll",
+        "tools/netcoreapp3.1/WebSharper.Sitelets.Offline.dll",
+        "tools/netcoreapp3.1/cs/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/de/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/default.win32manifest",
+        "tools/netcoreapp3.1/es/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/fr/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/it/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/ja/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/ko/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/pl/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/pt-BR/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/ru/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp3.1/tr/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/wsfsc.dll",
+        "tools/netcoreapp3.1/wsfsc.dll.config",
+        "tools/netcoreapp3.1/wsfsc.exe",
+        "tools/netcoreapp3.1/wsfsc.runtimeconfig.json",
+        "tools/netcoreapp3.1/wsfsc.sh",
+        "tools/netcoreapp3.1/zh-Hans/FSharp.Core.resources.dll",
+        "tools/netcoreapp3.1/zh-Hant/FSharp.Core.resources.dll",
+        "tools/runngen.ps1",
+        "websharper.fsharp.4.7.0.423.nupkg.sha512",
+        "websharper.fsharp.nuspec"
+      ]
+    },
+    "WebSharper.UI/4.7.0.231": {
+      "sha512": "VhqMs7oZe7O7fNE3qOGJ20avo5CPHrcS3Lexq27VStHzw7oC6xdbfRMqvEhIBYYAUNrm2/JOgh2t77CW+eNfOQ==",
+      "type": "package",
+      "path": "websharper.ui/4.7.0.231",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net461/HtmlAgilityPack.dll",
+        "lib/net461/WebSharper.UI.Templating.Common.dll",
+        "lib/net461/WebSharper.UI.Templating.Common.xml.zip",
+        "lib/net461/WebSharper.UI.Templating.Runtime.dll",
+        "lib/net461/WebSharper.UI.Templating.Runtime.xml.zip",
+        "lib/net461/WebSharper.UI.Templating.dll",
+        "lib/net461/WebSharper.UI.Templating.xml.zip",
+        "lib/net461/WebSharper.UI.dll",
+        "lib/net461/WebSharper.UI.xml.zip",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/System.Globalization.dll",
+        "lib/netstandard2.0/System.Reflection.dll",
+        "lib/netstandard2.0/System.Runtime.dll",
+        "lib/netstandard2.0/WebSharper.UI.Templating.Common.dll",
+        "lib/netstandard2.0/WebSharper.UI.Templating.Common.xml.zip",
+        "lib/netstandard2.0/WebSharper.UI.Templating.Runtime.dll",
+        "lib/netstandard2.0/WebSharper.UI.Templating.Runtime.xml.zip",
+        "lib/netstandard2.0/WebSharper.UI.Templating.dll",
+        "lib/netstandard2.0/WebSharper.UI.Templating.xml.zip",
+        "lib/netstandard2.0/WebSharper.UI.dll",
+        "lib/netstandard2.0/WebSharper.UI.xml.zip",
+        "lib/netstandard2.0/netstandard.dll",
+        "websharper.ui.4.7.0.231.nupkg.sha512",
+        "websharper.ui.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FSharp.Core >= 5.0.0",
+      "HtmlAgilityPack >= 1.11.28",
+      "Newtonsoft.Json >= 12.0.3",
+      "WebSharper >= 4.7.0.423",
+      "WebSharper.AspNetCore >= 4.7.0.157",
+      "WebSharper.AspNetCore.WebSocket >= 4.7.0.157",
+      "WebSharper.FSharp >= 4.7.0.423",
+      "WebSharper.UI >= 4.7.0.231"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\haris\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\haris\\Desktop\\Study\\DOSP\\TwitterClone-Websharper-WebSockets-main\\TwitterClone\\TwitterClone.fsproj",
+      "projectName": "TwitterClone",
+      "projectPath": "C:\\Users\\haris\\Desktop\\Study\\DOSP\\TwitterClone-Websharper-WebSockets-main\\TwitterClone\\TwitterClone.fsproj",
+      "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haris\\Desktop\\Study\\DOSP\\TwitterClone-Websharper-WebSockets-main\\TwitterClone\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1603",
+          "NU1604",
+          "NU1605",
+          "NU1608"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[5.0.0, )",
+            "generatePathProperty": true
+          },
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.11.28, )",
+            "generatePathProperty": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )",
+            "generatePathProperty": true
+          },
+          "WebSharper": {
+            "target": "Package",
+            "version": "[4.7.0.423, )",
+            "generatePathProperty": true
+          },
+          "WebSharper.AspNetCore": {
+            "target": "Package",
+            "version": "[4.7.0.157, )",
+            "generatePathProperty": true
+          },
+          "WebSharper.AspNetCore.WebSocket": {
+            "target": "Package",
+            "version": "[4.7.0.157, )",
+            "generatePathProperty": true
+          },
+          "WebSharper.FSharp": {
+            "target": "Package",
+            "version": "[4.7.0.423, )",
+            "generatePathProperty": true
+          },
+          "WebSharper.UI": {
+            "target": "Package",
+            "version": "[4.7.0.231, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
